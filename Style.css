@@ -1,6 +1,6 @@
 *{
   font-family: Lobster;
-  color:#165DFF;
+  color:blue;
 }
 .side1{
   background-color: #E9A200;
@@ -40,18 +40,47 @@
   margin-bottom:10px;
   font-size: 1.75em;
 }
-.orange{
-  background: blue;
-  position: absolute;
-  left:20%;
-  top:0%;
-  width:80%;
-  height: 100%;
-  transition: top 1s ease,opacity 1s ease;
-}
+
 /* Makes every thing edge to edge*/
 html,body{
   margin:0;
   padding:0;
   background-color: black;
+}
+
+/* Style for content*/
+#orange{
+  background: blue;
+  
+}
+
+.content{
+  position: absolute !important;
+  left:20%;
+  top:0%;
+  width:80%;
+  height: 100%;
+  background: blue;
+}
+
+.content h1{
+  
+  font-size:3em;               
+  left:30px;
+  color:#E9A200;
+
+}
+
+.content p{
+
+  color: #E9A200;
+}
+.view{
+  position: relative;
+  border:dashed black 2px;
+    
+  width: 80%;
+  height:80%;   
+  top:10%;
+  left:10%;                                                                                                                                                                                                                                                                         
 }
