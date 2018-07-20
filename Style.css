@@ -1,0 +1,57 @@
+*{
+  font-family: Lobster;
+  color:#165DFF;
+}
+.side1{
+  background-color: #E9A200;
+  width:20%;
+  height: 100%;
+
+}
+#side h1{
+  position: relative;
+  top:10%;
+  left:9%;
+  font-size: 3em;
+
+
+}
+#menu-box{
+  background-color: inherit;
+  position: relative;
+  width:200px;
+  height:200px;
+  margin-left:auto;
+  margin-right:auto;
+  top:10%;
+  /*
+  top:1em;
+  margin: auto;
+  height: 80%;
+  width:80%;
+  display:block;*/
+
+}
+#menu-box ul{
+  list-style-type: none;
+}
+#menu-box li{
+  margin-top: 10px;
+  margin-bottom:10px;
+  font-size: 1.75em;
+}
+.orange{
+  background: blue;
+  position: absolute;
+  left:20%;
+  top:0%;
+  width:80%;
+  height: 100%;
+  transition: top 1s ease,opacity 1s ease;
+}
+/* Makes every thing edge to edge*/
+html,body{
+  margin:0;
+  padding:0;
+  background-color: black;
+}
